@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20CA34F8-A24A-44A1-9055-CE5BDF008245</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LoadingAnimationTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9D502CDE0DDC4A290E44760DF02D83C7ABFB21C1</key>
+		<string>https://github.com/zhengzhengfather/LoadingAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LoadingAnimationTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9D502CDE0DDC4A290E44760DF02D83C7ABFB21C1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhengzhengfather/LoadingAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9D502CDE0DDC4A290E44760DF02D83C7ABFB21C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9D502CDE0DDC4A290E44760DF02D83C7ABFB21C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LoadingAnimationTest</string>
+		</dict>
+	</array>
+</dict>
+</plist>

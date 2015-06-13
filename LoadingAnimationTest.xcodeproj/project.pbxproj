@@ -14,6 +14,12 @@
 		C3A22C361AE78B7A000ECCBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A22C351AE78B7A000ECCBC /* Images.xcassets */; };
 		C3A22C391AE78B7A000ECCBC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A22C371AE78B7A000ECCBC /* LaunchScreen.xib */; };
 		C3A22C451AE78B7A000ECCBC /* LoadingAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A22C441AE78B7A000ECCBC /* LoadingAnimationTestTests.m */; };
+		C3A22C501AE78C87000ECCBC /* SpinerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A22C4F1AE78C87000ECCBC /* SpinerView.m */; };
+		C3A22C531AE88C9E000ECCBC /* CTSRefreshHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A22C521AE88C9E000ECCBC /* CTSRefreshHeaderView.m */; };
+		C3A22C561AE88CB1000ECCBC /* DotView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A22C551AE88CB1000ECCBC /* DotView.m */; };
+		C3A22C591AE8BFB0000ECCBC /* DRAnimationBlockDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A22C581AE8BFB0000ECCBC /* DRAnimationBlockDelegate.m */; };
+		C3C0CF551AE9E796006BCA1A /* CTSRefreshFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CF541AE9E796006BCA1A /* CTSRefreshFooterView.m */; };
+		C3C0CF581AEA104C006BCA1A /* CTSRefreshWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3C0CF571AEA104C006BCA1A /* CTSRefreshWebView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		C3A22C3E1AE78B7A000ECCBC /* LoadingAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoadingAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A22C431AE78B7A000ECCBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3A22C441AE78B7A000ECCBC /* LoadingAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingAnimationTestTests.m; sourceTree = "<group>"; };
+		C3A22C4E1AE78C87000ECCBC /* SpinerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinerView.h; sourceTree = "<group>"; };
+		C3A22C4F1AE78C87000ECCBC /* SpinerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinerView.m; sourceTree = "<group>"; };
+		C3A22C511AE88C9E000ECCBC /* CTSRefreshHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRefreshHeaderView.h; sourceTree = "<group>"; };
+		C3A22C521AE88C9E000ECCBC /* CTSRefreshHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRefreshHeaderView.m; sourceTree = "<group>"; };
+		C3A22C541AE88CB1000ECCBC /* DotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DotView.h; sourceTree = "<group>"; };
+		C3A22C551AE88CB1000ECCBC /* DotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DotView.m; sourceTree = "<group>"; };
+		C3A22C571AE8BFB0000ECCBC /* DRAnimationBlockDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRAnimationBlockDelegate.h; sourceTree = "<group>"; };
+		C3A22C581AE8BFB0000ECCBC /* DRAnimationBlockDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRAnimationBlockDelegate.m; sourceTree = "<group>"; };
+		C3C0CF531AE9E796006BCA1A /* CTSRefreshFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRefreshFooterView.h; sourceTree = "<group>"; };
+		C3C0CF541AE9E796006BCA1A /* CTSRefreshFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRefreshFooterView.m; sourceTree = "<group>"; };
+		C3C0CF561AEA104C006BCA1A /* CTSRefreshWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRefreshWebView.h; sourceTree = "<group>"; };
+		C3C0CF571AEA104C006BCA1A /* CTSRefreshWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSRefreshWebView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +99,8 @@
 		C3A22C271AE78B7A000ECCBC /* LoadingAnimationTest */ = {
 			isa = PBXGroup;
 			children = (
+				C3A22C571AE8BFB0000ECCBC /* DRAnimationBlockDelegate.h */,
+				C3A22C581AE8BFB0000ECCBC /* DRAnimationBlockDelegate.m */,
 				C3A22C2C1AE78B7A000ECCBC /* AppDelegate.h */,
 				C3A22C2D1AE78B7A000ECCBC /* AppDelegate.m */,
 				C3A22C2F1AE78B7A000ECCBC /* ViewController.h */,
@@ -89,6 +109,16 @@
 				C3A22C351AE78B7A000ECCBC /* Images.xcassets */,
 				C3A22C371AE78B7A000ECCBC /* LaunchScreen.xib */,
 				C3A22C281AE78B7A000ECCBC /* Supporting Files */,
+				C3A22C4E1AE78C87000ECCBC /* SpinerView.h */,
+				C3A22C4F1AE78C87000ECCBC /* SpinerView.m */,
+				C3A22C541AE88CB1000ECCBC /* DotView.h */,
+				C3A22C551AE88CB1000ECCBC /* DotView.m */,
+				C3A22C511AE88C9E000ECCBC /* CTSRefreshHeaderView.h */,
+				C3A22C521AE88C9E000ECCBC /* CTSRefreshHeaderView.m */,
+				C3C0CF531AE9E796006BCA1A /* CTSRefreshFooterView.h */,
+				C3C0CF541AE9E796006BCA1A /* CTSRefreshFooterView.m */,
+				C3C0CF561AEA104C006BCA1A /* CTSRefreshWebView.h */,
+				C3C0CF571AEA104C006BCA1A /* CTSRefreshWebView.m */,
 			);
 			path = LoadingAnimationTest;
 			sourceTree = "<group>";
@@ -220,8 +250,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A22C311AE78B7A000ECCBC /* ViewController.m in Sources */,
+				C3A22C531AE88C9E000ECCBC /* CTSRefreshHeaderView.m in Sources */,
+				C3A22C561AE88CB1000ECCBC /* DotView.m in Sources */,
+				C3C0CF581AEA104C006BCA1A /* CTSRefreshWebView.m in Sources */,
+				C3A22C591AE8BFB0000ECCBC /* DRAnimationBlockDelegate.m in Sources */,
+				C3C0CF551AE9E796006BCA1A /* CTSRefreshFooterView.m in Sources */,
 				C3A22C2E1AE78B7A000ECCBC /* AppDelegate.m in Sources */,
 				C3A22C2B1AE78B7A000ECCBC /* main.m in Sources */,
+				C3A22C501AE78C87000ECCBC /* SpinerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +381,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
 				INFOPLIST_FILE = LoadingAnimationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e73aaac2-4026-494e-b975-ae95f24feeb1";
 			};
 			name = Debug;
 		};
@@ -355,9 +393,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: XU YUNHUI (7VDU7XTL48)";
 				INFOPLIST_FILE = LoadingAnimationTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e73aaac2-4026-494e-b975-ae95f24feeb1";
 			};
 			name = Release;
 		};
@@ -414,6 +454,7 @@
 				C3A22C4A1AE78B7A000ECCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3A22C4B1AE78B7A000ECCBC /* Build configuration list for PBXNativeTarget "LoadingAnimationTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +463,7 @@
 				C3A22C4D1AE78B7A000ECCBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
